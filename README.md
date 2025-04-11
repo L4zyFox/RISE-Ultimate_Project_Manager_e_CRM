@@ -1,12 +1,12 @@
 # RISE-Ultimate_Project_Manager_e_CRM
 
-Security vulnerability: IDOR (Insecure Direct Object Reference)
-Affected Component: profile image upload endpoint, team_members controller
-Software: RISE - Ultimate Project Manager & CRM 
-Vendor: codecanyon
-Version: 3.8.2
+Security vulnerability: IDOR (Insecure Direct Object Reference)<br>
+Affected Component: profile image upload endpoint, team_members controller<br>
+Software: RISE - Ultimate Project Manager & CRM <br>
+Vendor: codecanyon<br>
+Version: 3.8.2<br>
 
-Describe the bug/issue:
+Describe the bug/issue:<br>
 A vulnerability was discovered in RISE - Ultimate Project Manager & CRM that allows an authenticated user to change the profile picture of any other user by exploiting an Insecure Direct Object Reference (IDOR) in the /index.php/team_members/save_profile_image/[user_id] endpoint. The application does not properly validate whether the authenticated user is authorized to update the specified user ID’s profile image, allowing unauthorized modification of user data. This flaw impacts data integrity and may lead to impersonation or disruption of user experience.
 
 To Reproduce:
