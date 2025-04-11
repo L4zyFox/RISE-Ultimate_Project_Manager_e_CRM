@@ -6,7 +6,8 @@ Software: RISE - Ultimate Project Manager & CRM <br>
 Vendor: codecanyon<br>
 Version: 3.8.2<br>
 
-Describe the bug/issue:<br>
+Describe the bug/issue:
+
 A vulnerability was discovered in RISE - Ultimate Project Manager & CRM that allows an authenticated user to change the profile picture of any other user by exploiting an Insecure Direct Object Reference (IDOR) in the /index.php/team_members/save_profile_image/[user_id] endpoint. The application does not properly validate whether the authenticated user is authorized to update the specified user ID’s profile image, allowing unauthorized modification of user data. This flaw impacts data integrity and may lead to impersonation or disruption of user experience.
 
 To Reproduce:
