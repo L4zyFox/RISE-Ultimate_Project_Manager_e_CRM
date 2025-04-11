@@ -1,4 +1,4 @@
-# RISE-Ultimate_Project_Manager_e_CRM
+# RISE-Ultimate_Project_Manager_e_CRM-IDOR
 
 Security vulnerability: IDOR (Insecure Direct Object Reference)<br>
 Affected Component: profile image upload endpoint, team_members controller<br>
