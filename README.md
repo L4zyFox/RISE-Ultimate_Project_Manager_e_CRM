@@ -1,4 +1,4 @@
-# CVE-2025-3855 - RISE-Ultimate_Project_Manager - IDOR
+# CVE-2025-3855 - RISE Ultimate Project Manager - IDOR
 
 Security vulnerability: IDOR (Insecure Direct Object Reference)<br>
 Affected Component: profile image upload endpoint, team_members controller<br>
@@ -6,9 +6,9 @@ Software: RISE - Ultimate Project Manager & CRM <br>
 Vendor: codecanyon<br>
 Version: 3.8.2<br>
 
-CVE ORG : https://www.cve.org/CVERecord?id=CVE-2025-3855
-NIST: https://nvd.nist.gov/vuln/detail/CVE-2025-3855
-CVE DETAILS: https://www.cvedetails.com/cve/CVE-2025-3855
+CVE ORG : https://www.cve.org/CVERecord?id=CVE-2025-3855 <br>
+NIST: https://nvd.nist.gov/vuln/detail/CVE-2025-3855 <br>
+CVE DETAILS: https://www.cvedetails.com/cve/CVE-2025-3855 <br>
 
 Describe the bug/issue:
 
